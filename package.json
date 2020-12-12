@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "publish": "scp -r ./* root@122.51.101.113:/home/kil/server",
     "start": "node ./bin/www"
   },
   "dependencies": {
